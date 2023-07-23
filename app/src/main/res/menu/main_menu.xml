@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item android:id="@+id/nav_abt_us"
+            android:title="About Us"
+            android:icon="@drawable/about_us"/>
+
+        <item android:id="@+id/nav_newsroom"
+            android:title="NewsRoom"
+            android:icon="@drawable/newsroom"/>
+
+        <item android:id="@+id/nav_bureaus"
+            android:title="Bureaus"
+            android:icon="@drawable/enterprise"/>
+
+        <item android:id="@+id/nav_initiatives"
+            android:title="Initiatives"
+            android:icon="@drawable/initi"/>
+
+        <item android:id="@+id/nav_schemes"
+            android:title="Schemes"
+            android:icon="@drawable/schmes"/>
+
+        <item android:id="@+id/nav_education"
+            android:title="Education"
+            android:icon="@drawable/education"/>
+
+        <item android:id="@+id/nav_opportunities"
+            android:title="Opportunities"
+            android:icon="@drawable/opportunity"/>
+
+        <item android:id="@+id/nav_stati"
+            android:title="Statistics"
+            android:icon="@drawable/analysis"/>
+
+        <item android:id="@+id/nav_bulletins"
+            android:title="Bulletins"
+            android:icon="@drawable/bulletin"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/darktheme"
+            android:title="Dark Theme"
+            android:icon="@drawable/brightness"/>
+
+    </group>
+
+
+</menu>

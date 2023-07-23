@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/andika_new_basic_bold</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/baumans</item>
+        <item>@font/charm_bold</item>
+        <item>@font/dm_sans_bold</item>
+        <item>@font/gentium_basic_bold</item>
+        <item>@font/gentium_book_basic</item>
+        <item>@font/ubuntu</item>
+    </array>
+</resources>

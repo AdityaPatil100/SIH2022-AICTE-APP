@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".About_us">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardCornerRadius="7dp"
+        android:elevation="8dp">
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/ic_back"
+            android:background="#0000"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="About Us"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/bg_black"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <Button
+            android:id="@+id/home_btn_press"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingRight="15dp"
+            android:background="#0000"
+            android:drawableRight="@drawable/ic_home" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/card_view_abtus"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_margin="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/history_image"
+                android:background="@drawable/abt_us"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_margin="15dp">
+
+             <TextView
+                 android:layout_width="380dp"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/charm_bold"
+
+                 android:text="Meet the individuals who bring unique perspectives, broad experience acquired through close collaborations, and deep insight to our work."
+                 android:textColor="#6B6B6B"
+                 android:textSize="16sp" />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="center"
+             android:background="#0000">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/prof_abut1" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Prof. Anil D. Sahasrabudhe"
+                     android:textSize="8.5sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Chairman"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/prof_abut2" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Prof. M.P. Poonia"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Vice Chairman"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/prof_abut3" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Prof. Rajive Kumar"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Member Secretary"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+
+
+
+
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="CIO/Adviser I/CCO"
+             android:fontFamily="@font/andika_new_basic_bold"
+             android:textSize="20sp"
+             android:padding="12dp"/>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="center"
+             android:background="#0000">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/abhay_0" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr. Abhay Jere"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Chief Innovation Officer"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/advisor" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Smt. Mamta Rani Agarwal"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Advisor-I"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/dr_kakde" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Prof. Rajendra B Kakde"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Advisor-I"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="center"
+             android:background="#0000">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/ksdjfb" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr. Neeraj Saxena"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Advisor-I"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/buddhachandrashekhar1_0" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr Buddha Chandrashekhar"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Chief Coordinating Officer"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+
+
+
+
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Adviser II"
+             android:fontFamily="@font/andika_new_basic_bold"
+             android:textSize="20sp"
+             android:padding="12dp"/>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="center">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/rksoni_0" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr. R. K. Soni"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Adviser-II"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center"
+                 android:background="#0000">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/ramesh" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr Ramesh Unnikrishnan"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Adviser-II"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Directors"
+             android:fontFamily="@font/andika_new_basic_bold"
+             android:textSize="20sp"
+             android:padding="12dp"/>
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="center"
+             android:background="#0000">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/director_sir" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr. Amit Dutta"
+                     android:textSize="8.5sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Director"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/dinesh_sir_1" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr. Dinesh Singh"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Director"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/kailash_bansal" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Lt. Col. Kailash Bansal"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Director"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+
+
+
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_gravity="center"
+             android:background="#0000">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/gujju_mansure" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Smt Gujju Manushree"
+                     android:textSize="8.5sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Director"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/anfkjba" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Dr Amit Kumar Srivastava"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Director"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_gravity="center">
+
+                 <RelativeLayout
+                     android:layout_width="110dp"
+                     android:layout_height="120dp"
+                     android:elevation="8dp">
+
+
+                     <ImageView
+                         android:layout_width="130dp"
+                         android:layout_height="120dp"
+                         android:src="@drawable/ravinder_singh_0" />
+
+
+                 </RelativeLayout>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Sh Ravinder Singh"
+                     android:textSize="8sp"
+                     android:gravity="center"
+                     android:textColor="@color/black"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Director"
+                     android:textSize="8sp"
+                     android:textColor="@color/black"
+                     android:gravity="center"/>
+
+
+             </LinearLayout>
+
+
+
+
+
+         </LinearLayout>
+
+
+
+         <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/food_back">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/bg_black"
+                    android:text="Copyright © 2017. AICTE \nNelson Mandela Marg, Vasant Kunj,\nNew Delhi -110070"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="100dp"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="60dp"
+                    android:src="@drawable/twitter"/>
+
+                <ImageView
+                    android:id="@+id/website_icon1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/website" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+     </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AICTE</string>
+    <string name="menu_Open">Open</string>
+    <string name="mnu_Close">Close</string>
+
+
+    <!--- Home Splash Text -->
+    <string name="home_splash_sample_text">All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner.</string>
+
+    <string name="Web_portal_login"><a href="https://portal.aicte-india.org/partnerportal_enu/start.swe?SWECmd=GotoView&amp;SWEView=Home+Page+View+CX&amp;SWERF=1&amp;SWEHo=portal.aicte-india.org&amp;SWEBU=1&amp;SWEApplet0=Signin+Applet+(CX+Partner+Portal)&amp;SWERowId0=VRId-0">Web Portal Login</a></string>
+    <string name="Hindi"><a href="https://hindi.aicte-india.org/">हिंदी</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="expText">The beginning of formal technical education in India can be dated back to the mid-19th century. Major policy initiatives in the pre-independence period included the appointment of the Indian Universities Commission in 1902, issue of the Indian Education Policy Resolution in 1904, and the Governor General’s policy statement of 1913 stressing the importance of technical education, the establishment of IISc in Bangalore, Institute for Sugar, Textile &amp; Leather Technology in Kanpur, N.C.E. in Bengal in 1905, and industrial schools in several provinces.</string>
+    <string name="title_activity_aicte_dashboard_login_signin">AicteDashboardLoginSignin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
